@@ -2,7 +2,7 @@ const App = () => {
 	return (
 		<>
 			<header className='container flex justify-between w-full h-20 px-6'>
-				<img src='/public/logo.svg' alt='logo' className='w-20 h-20 -ml-4' />
+				<img src='/logo.svg' alt='logo' className='w-20 h-20 -ml-4' />
 				<div id='social-media' className='flex items-center gap-2'>
 					<a
 						href='https://github.com/jmhs11'

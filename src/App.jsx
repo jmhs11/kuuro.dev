@@ -108,7 +108,7 @@ const App = () => {
 				</section>
 				<section className='container px-6 pb-20'>
 					<h2 className='pb-4 font-bold'>Skills</h2>
-					<div className='grid grid-cols-4 gap-6 md:grid-cols-6 lg:grid-cols-8 place-items-center'>
+					<div className='grid grid-cols-3 gap-6 md:grid-cols-5 lg:grid-cols-8 place-items-center'>
 						{TECHNOLOGIES.map(technology => (
 							<GridTechnology key={technology.icon} {...technology} />
 						))}

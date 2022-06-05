@@ -1,6 +1,8 @@
+import GridProject from './components/GridProject';
+
 const App = () => {
 	return (
-		<>
+		<div className='bg-pattern'>
 			<header className='container flex justify-between w-full h-20 px-6'>
 				<img src='/logo.svg' alt='logo' className='w-20 h-20 -ml-4' />
 				<div id='social-media' className='flex items-center gap-2'>
@@ -44,49 +46,15 @@ const App = () => {
 				<section className='container px-6'>
 					<h2 className='pb-4 font-bold'>Mis Proyectos Recientes</h2>
 					<div className='grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4'>
-						<article className='rounded-md'>
-							<img
-								src='/todolist-cover.png'
-								loading='eager'
-								alt=''
-								className='object-cover w-full h-60 rounded-t-md'
-							/>
-							<div className='flex flex-col px-3 pt-1 pb-3 border-2 border-t-0 rounded-b-md'>
-								<h4 className='text-lg font-semibold'>TodoList</h4>
-								<div id='description'>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,
-									fugit. Maxime, ipsum non corporis tenetur voluptas libero
-									facere quos deleniti possimus porro suscipit?
-								</div>
-								<div id='technologies' className='justify-self-end'>
-									😀😀😀😀😀
-								</div>
-							</div>
-						</article>
-						<article className='rounded-md'>
-							<img
-								src='/todolist-cover.png'
-								loading='lazy'
-								alt=''
-								className='object-cover w-full h-60 rounded-t-md'
-							/>
-							<div className='flex flex-col px-3 pt-1 pb-3 border-2 border-t-0 rounded-b-md'>
-								<h4 className='text-lg font-semibold'>TodoList</h4>
-								<div id='description'>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,
-									fugit. Maxime, ipsum non corporis tenetur voluptas libero
-									facere quos deleniti possimus porro suscipit?
-								</div>
-								<div id='technologies' className='justify-self-end'>
-									😀😀😀😀😀
-								</div>
-							</div>
-						</article>
+						<GridProject />
+						<GridProject />
+						<GridProject />
+						<GridProject />
 					</div>
 				</section>
 			</main>
 			<footer className='pt-6'></footer>
-		</>
+		</div>
 	);
 };
 

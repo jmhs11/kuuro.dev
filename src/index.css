@@ -1,16 +1,23 @@
 @tailwind base;
 
 @layer base {
-    h1 {
-      @apply text-3xl;
-    }
-    h2 {
-      @apply text-xl;
-    }
-    h3 {
-      @apply text-lg;
-    }
-  }
+	h1 {
+		@apply text-3xl;
+	}
+	h2 {
+		@apply text-xl;
+	}
+	h3 {
+		@apply text-lg;
+	}
+}
 
 @tailwind components;
+
+@layer components {
+  .bg-pattern{
+    @apply bg-[url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiPgo8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSI1IiBmaWxsPSIjZmZmIj48L3JlY3Q+CjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IiNjY2MiPjwvcmVjdD4KPC9zdmc+")];
+  }
+}
+
 @tailwind utilities;

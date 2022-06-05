@@ -1,5 +1,106 @@
+import Footer from './components/Footer';
 import GridProject from './components/GridProject';
 import GridTechnology from './components/GridTechnology';
+import Header from './components/Header';
+
+const PROJECTS = [
+	{
+		name: 'Proyecto 1',
+		imageUrl: '/todolist-cover.png',
+		description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam laudantium inventore ad natus autem sed et repellat cupiditate.',
+		url: 'https://todo-list.kuuro.dev',
+		technologies: [
+			{
+				name: 'Angular',
+				icon: 'angular-icon',
+			},
+			{
+				name: 'TailwindCSS',
+				icon: 'tailwindcss-icon',
+			},
+			{
+				name: 'Firebase',
+				icon: 'firebase-icon',
+			},
+			{
+				name: 'Vercel',
+				icon: 'vercel-icon'
+			}
+		]
+	},
+	{
+		name: 'Proyecto 2',
+		imageUrl: '/todolist-cover.png',
+		description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam laudantium inventore ad natus autem sed et repellat cupiditate.',
+		url: 'https://todo-list.kuuro.dev',
+		technologies: [
+			{
+				name: 'React1',
+				icon: 'react-icon',
+			},
+			{
+				name: 'React2',
+				icon: 'react-icon',
+			},
+			{
+				name: 'React3',
+				icon: 'react-icon',
+			},
+			{
+				name: 'React4',
+				icon: 'react-icon'
+			}
+		]
+	},
+	{
+		name: 'Proyecto 3',
+		imageUrl: '/todolist-cover.png',
+		description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam laudantium inventore ad natus autem sed et repellat cupiditate.',
+		url: 'https://todo-list.kuuro.dev',
+		technologies: [
+			{
+				name: 'React1',
+				icon: 'react-icon',
+			},
+			{
+				name: 'React2',
+				icon: 'react-icon',
+			},
+			{
+				name: 'React3',
+				icon: 'react-icon',
+			},
+			{
+				name: 'React4',
+				icon: 'react-icon'
+			}
+		]
+	},
+	{
+		name: 'Proyecto 4',
+		imageUrl: '/todolist-cover.png',
+		description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam laudantium inventore ad natus autem sed et repellat cupiditate.',
+		url: 'https://todo-list.kuuro.dev',
+		technologies: [
+			{
+				name: 'React1',
+				icon: 'react-icon',
+			},
+			{
+				name: 'React2',
+				icon: 'react-icon',
+			},
+			{
+				name: 'React3',
+				icon: 'react-icon',
+			},
+			{
+				name: 'React4',
+				icon: 'react-icon'
+			}
+		]
+	},
+]
 
 const TECHNOLOGIES = [
 	{
@@ -62,35 +163,9 @@ const TECHNOLOGIES = [
 const App = () => {
 	return (
 		<div className='bg-pattern'>
-			<header className='container flex justify-between w-full h-20 px-6'>
-				<img src='/logo.svg' alt='logo' className='w-20 h-20 -ml-4' />
-				<div id='social-media' className='flex items-center gap-2'>
-					<a
-						href='https://github.com/jmhs11'
-						rel='nooppener noreferrer'
-						target='_blank'
-					>
-						<img
-							src='/icons/github-icon.svg'
-							alt='Github Link'
-							className='w-8 h-8'
-						/>
-					</a>
-					<a
-						href='https://www.linkedin.com/in/jmhs11/'
-						rel='nooppener noreferrer'
-						target='_blank'
-					>
-						<img
-							src='/icons/linkedin-icon.svg'
-							alt='Github Link'
-							className='w-8 h-8'
-						/>
-					</a>
-				</div>
-			</header>
+			<Header />
 			<main>
-				<section className='container px-6 py-56'>
+				<section className='px-6 py-56 md:container'>
 					<h1 className='pb-2 font-bold'>Hola! soy Kuuro</h1>
 					<h3 className='text-[#6A6D7C] pb-2 font-bold'>
 						Desarrollador Frontend
@@ -106,7 +181,7 @@ const App = () => {
 						Ver mi CV
 					</button>
 				</section>
-				<section className='container px-6 pb-20'>
+				<section className='px-6 pb-20 md:container'>
 					<h2 className='pb-4 font-bold'>Skills</h2>
 					<div className='grid grid-cols-3 gap-6 md:grid-cols-5 lg:grid-cols-8 place-items-center'>
 						{TECHNOLOGIES.map(technology => (
@@ -117,14 +192,13 @@ const App = () => {
 				<section className='container px-6'>
 					<h2 className='pb-4 font-bold'>Mis Proyectos Recientes</h2>
 					<div className='grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4'>
-						<GridProject />
-						<GridProject />
-						<GridProject />
-						<GridProject />
+						{PROJECTS.map(project => (
+							<GridProject key={project.name} project={project} />
+						))}
 					</div>
 				</section>
 			</main>
-			<footer className='pt-6'></footer>
+			<Footer />
 		</div>
 	);
 };

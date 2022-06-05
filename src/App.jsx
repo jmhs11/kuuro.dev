@@ -1,4 +1,63 @@
 import GridProject from './components/GridProject';
+import GridTechnology from './components/GridTechnology';
+
+const TECHNOLOGIES = [
+	{
+		url: 'https://www.reactjs.org/',
+		icon: 'react-icon',
+		altText: 'React Link'
+	},
+	{
+		url: 'https://angular.io',
+		icon: 'angular-icon',
+		altText: 'Angular Link'
+	},
+	{
+		url: 'https://www.javascript.com',
+		icon: 'javascript-icon',
+		altText: 'JavaScript Link'
+	},
+	{
+		url: 'https://www.typescriptlang.org',
+		icon: 'typescript-icon',
+		altText: 'TypeScript Link'
+	},
+	{
+		url: 'https://developer.mozilla.org/es/docs/Web/HTML',
+		icon: 'html-icon',
+		altText: 'HTML Link'
+	},
+	{
+		url: 'https://developer.mozilla.org/es/docs/Web/CSS',
+		icon: 'css-3-icon',
+		altText: 'CSS Link'
+	},
+	{
+		url: 'https://tailwindcss.com',
+		icon: 'tailwindcss-icon',
+		altText: 'Tailwind Link'
+	},
+	{
+		url: 'https://git-scm.com',
+		icon: 'git-icon',
+		altText: 'Git Link'
+	},
+	{
+		url: 'https://firebase.google.com',
+		icon: 'firebase-icon',
+		altText: 'Firebase Link'
+	},
+	{
+		url: 'https://vercel.com',
+		icon: 'vercel-icon',
+		altText: 'Vercel Link'
+	},
+	// {
+	// 	url: '',
+	// 	icon: '',
+	// 	altText: ''
+	// }
+];
 
 const App = () => {
 	return (
@@ -11,7 +70,11 @@ const App = () => {
 						rel='nooppener noreferrer'
 						target='_blank'
 					>
-						<img src='/github-icon.svg' alt='Github Link' className='w-8 h-8' />
+						<img
+							src='/icons/github-icon.svg'
+							alt='Github Link'
+							className='w-8 h-8'
+						/>
 					</a>
 					<a
 						href='https://www.linkedin.com/in/jmhs11/'
@@ -19,7 +82,7 @@ const App = () => {
 						target='_blank'
 					>
 						<img
-							src='/linkedin-icon.svg'
+							src='/icons/linkedin-icon.svg'
 							alt='Github Link'
 							className='w-8 h-8'
 						/>
@@ -42,6 +105,14 @@ const App = () => {
 					>
 						Ver mi CV
 					</button>
+				</section>
+				<section className='container px-6 pb-20'>
+					<h2 className='pb-4 font-bold'>Skills</h2>
+					<div className='grid grid-cols-4 gap-6 md:grid-cols-6 lg:grid-cols-8 place-items-center'>
+						{TECHNOLOGIES.map(technology => (
+							<GridTechnology key={technology.icon} {...technology} />
+						))}
+					</div>
 				</section>
 				<section className='container px-6'>
 					<h2 className='pb-4 font-bold'>Mis Proyectos Recientes</h2>

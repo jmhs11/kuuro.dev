@@ -7,20 +7,21 @@ const PROJECTS = [
 	{
 		name: 'Todo List',
 		imageUrl: '/projects/todolist-cover.png',
-		description: 'Aplicación para listar tareas pendientes con persistencia en Firebase Realtime Database',
+		description:
+			'Aplicación para listar tareas pendientes con persistencia en Firebase Realtime Database',
 		url: 'https://todo-list.kuuro.dev',
 		technologies: [
 			{
 				name: 'Angular',
-				icon: 'angular-icon',
+				icon: 'angular-icon'
 			},
 			{
 				name: 'TailwindCSS',
-				icon: 'tailwindcss-icon',
+				icon: 'tailwindcss-icon'
 			},
 			{
 				name: 'Firebase',
-				icon: 'firebase-icon',
+				icon: 'firebase-icon'
 			},
 			{
 				name: 'Vercel',
@@ -28,7 +29,7 @@ const PROJECTS = [
 				className: 'dark-mode-icon'
 			}
 		]
-	},
+	}
 	// {
 	// 	name: 'Proyecto 2',
 	// 	imageUrl: '/projects/todolist-cover.png',
@@ -101,7 +102,7 @@ const PROJECTS = [
 	// 		}
 	// 	]
 	// },
-]
+];
 
 const TECHNOLOGIES = [
 	{
@@ -154,7 +155,7 @@ const TECHNOLOGIES = [
 		icon: 'vercel-icon',
 		altText: 'Vercel Link',
 		className: 'dark-mode-icon'
-	},
+	}
 	// {
 	// 	url: '',
 	// 	icon: '',
@@ -173,15 +174,30 @@ const App = () => {
 						Desarrollador Frontend
 					</h3>
 					<p className='text-[#6A6D7C] dark:text-[#ccc] pb-4'>
-						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-						laudantium inventore ad natus autem sed et repellat cupiditate.
+						Soy Frontend developer con más de 2 años en el mundo de la
+						programación, actualmente aprendiendo de forma autodidacta React
+						&amp; Node.js y entusiasta de la cultura japonesa{' '}
+						<img
+							src='/icons/japan.png'
+							alt='Japan Flag'
+							className='inline w-4 h-4'
+						/>
+						⛩
 					</p>
-					<button
-						type='button'
-						className='px-4 py-2 text-white bg-blue-400 rounded-md'
-					>
-						Ver mi CV
-					</button>
+					<div className='flex gap-4'>
+						<button
+							type='button'
+							className='px-4 py-2 text-white bg-blue-400 rounded-md'
+						>
+							Ver mi CV
+						</button>
+						<button
+							type='button'
+							className='px-4 py-2 text-white bg-blue-200 rounded-md'
+						>
+							Contáctame
+						</button>
+					</div>
 				</section>
 				<section className='px-6 pb-20 md:container'>
 					<h2 className='pb-4 font-bold'>Skills</h2>

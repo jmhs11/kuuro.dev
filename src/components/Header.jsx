@@ -22,7 +22,7 @@ const Header = () => {
 					<img
 						src='/icons/linkedin-icon.svg'
 						alt='LinkedIn Link'
-						className='w-8 h-8'
+						className='w-8 h-8 bg-white rounded'
 					/>
 				</a>
 			</div>

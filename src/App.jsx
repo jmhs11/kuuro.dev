@@ -163,7 +163,7 @@ const TECHNOLOGIES = [
 
 const App = () => {
 	return (
-		<div className='bg-pattern'>
+		<>
 			<Header />
 			<main>
 				<section className='px-6 py-56 md:container'>
@@ -200,7 +200,7 @@ const App = () => {
 				</section>
 			</main>
 			<Footer />
-		</div>
+		</>
 	);
 };
 

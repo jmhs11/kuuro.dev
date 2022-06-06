@@ -5,9 +5,9 @@ import Header from './components/Header';
 
 const PROJECTS = [
 	{
-		name: 'Proyecto 1',
+		name: 'Todo List',
 		imageUrl: '/projects/todolist-cover.png',
-		description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam laudantium inventore ad natus autem sed et repellat cupiditate.',
+		description: 'Aplicación para listar tareas pendientes con persistencia en Firebase Realtime Database',
 		url: 'https://todo-list.kuuro.dev',
 		technologies: [
 			{
@@ -24,82 +24,83 @@ const PROJECTS = [
 			},
 			{
 				name: 'Vercel',
-				icon: 'vercel-icon'
+				icon: 'vercel-icon',
+				className: 'dark-mode-icon'
 			}
 		]
 	},
-	{
-		name: 'Proyecto 2',
-		imageUrl: '/projects/todolist-cover.png',
-		description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam laudantium inventore ad natus autem sed et repellat cupiditate.',
-		url: 'https://todo-list.kuuro.dev',
-		technologies: [
-			{
-				name: 'React1',
-				icon: 'react-icon',
-			},
-			{
-				name: 'React2',
-				icon: 'react-icon',
-			},
-			{
-				name: 'React3',
-				icon: 'react-icon',
-			},
-			{
-				name: 'React4',
-				icon: 'react-icon'
-			}
-		]
-	},
-	{
-		name: 'Proyecto 3',
-		imageUrl: '/projects/todolist-cover.png',
-		description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam laudantium inventore ad natus autem sed et repellat cupiditate.',
-		url: 'https://todo-list.kuuro.dev',
-		technologies: [
-			{
-				name: 'React1',
-				icon: 'react-icon',
-			},
-			{
-				name: 'React2',
-				icon: 'react-icon',
-			},
-			{
-				name: 'React3',
-				icon: 'react-icon',
-			},
-			{
-				name: 'React4',
-				icon: 'react-icon'
-			}
-		]
-	},
-	{
-		name: 'Proyecto 4',
-		imageUrl: '/projects/todolist-cover.png',
-		description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam laudantium inventore ad natus autem sed et repellat cupiditate.',
-		url: 'https://todo-list.kuuro.dev',
-		technologies: [
-			{
-				name: 'React1',
-				icon: 'react-icon',
-			},
-			{
-				name: 'React2',
-				icon: 'react-icon',
-			},
-			{
-				name: 'React3',
-				icon: 'react-icon',
-			},
-			{
-				name: 'React4',
-				icon: 'react-icon'
-			}
-		]
-	},
+	// {
+	// 	name: 'Proyecto 2',
+	// 	imageUrl: '/projects/todolist-cover.png',
+	// 	description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam laudantium inventore ad natus autem sed et repellat cupiditate.',
+	// 	url: 'https://todo-list.kuuro.dev',
+	// 	technologies: [
+	// 		{
+	// 			name: 'React1',
+	// 			icon: 'react-icon',
+	// 		},
+	// 		{
+	// 			name: 'React2',
+	// 			icon: 'react-icon',
+	// 		},
+	// 		{
+	// 			name: 'React3',
+	// 			icon: 'react-icon',
+	// 		},
+	// 		{
+	// 			name: 'React4',
+	// 			icon: 'react-icon'
+	// 		}
+	// 	]
+	// },
+	// {
+	// 	name: 'Proyecto 3',
+	// 	imageUrl: '/projects/todolist-cover.png',
+	// 	description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam laudantium inventore ad natus autem sed et repellat cupiditate.',
+	// 	url: 'https://todo-list.kuuro.dev',
+	// 	technologies: [
+	// 		{
+	// 			name: 'React1',
+	// 			icon: 'react-icon',
+	// 		},
+	// 		{
+	// 			name: 'React2',
+	// 			icon: 'react-icon',
+	// 		},
+	// 		{
+	// 			name: 'React3',
+	// 			icon: 'react-icon',
+	// 		},
+	// 		{
+	// 			name: 'React4',
+	// 			icon: 'react-icon'
+	// 		}
+	// 	]
+	// },
+	// {
+	// 	name: 'Proyecto 4',
+	// 	imageUrl: '/projects/todolist-cover.png',
+	// 	description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam laudantium inventore ad natus autem sed et repellat cupiditate.',
+	// 	url: 'https://todo-list.kuuro.dev',
+	// 	technologies: [
+	// 		{
+	// 			name: 'React1',
+	// 			icon: 'react-icon',
+	// 		},
+	// 		{
+	// 			name: 'React2',
+	// 			icon: 'react-icon',
+	// 		},
+	// 		{
+	// 			name: 'React3',
+	// 			icon: 'react-icon',
+	// 		},
+	// 		{
+	// 			name: 'React4',
+	// 			icon: 'react-icon'
+	// 		}
+	// 	]
+	// },
 ]
 
 const TECHNOLOGIES = [

@@ -6,7 +6,7 @@ import Header from './components/Header';
 const PROJECTS = [
 	{
 		name: 'Proyecto 1',
-		imageUrl: '/todolist-cover.png',
+		imageUrl: '/projects/todolist-cover.png',
 		description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam laudantium inventore ad natus autem sed et repellat cupiditate.',
 		url: 'https://todo-list.kuuro.dev',
 		technologies: [
@@ -30,7 +30,7 @@ const PROJECTS = [
 	},
 	{
 		name: 'Proyecto 2',
-		imageUrl: '/todolist-cover.png',
+		imageUrl: '/projects/todolist-cover.png',
 		description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam laudantium inventore ad natus autem sed et repellat cupiditate.',
 		url: 'https://todo-list.kuuro.dev',
 		technologies: [
@@ -54,7 +54,7 @@ const PROJECTS = [
 	},
 	{
 		name: 'Proyecto 3',
-		imageUrl: '/todolist-cover.png',
+		imageUrl: '/projects/todolist-cover.png',
 		description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam laudantium inventore ad natus autem sed et repellat cupiditate.',
 		url: 'https://todo-list.kuuro.dev',
 		technologies: [
@@ -78,7 +78,7 @@ const PROJECTS = [
 	},
 	{
 		name: 'Proyecto 4',
-		imageUrl: '/todolist-cover.png',
+		imageUrl: '/projects/todolist-cover.png',
 		description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam laudantium inventore ad natus autem sed et repellat cupiditate.',
 		url: 'https://todo-list.kuuro.dev',
 		technologies: [
@@ -151,7 +151,8 @@ const TECHNOLOGIES = [
 	{
 		url: 'https://vercel.com',
 		icon: 'vercel-icon',
-		altText: 'Vercel Link'
+		altText: 'Vercel Link',
+		className: 'dark-mode-icon'
 	},
 	// {
 	// 	url: '',
@@ -167,10 +168,10 @@ const App = () => {
 			<main>
 				<section className='px-6 py-56 md:container'>
 					<h1 className='pb-2 font-bold'>Hola! soy Kuuro</h1>
-					<h3 className='text-[#6A6D7C] pb-2 font-bold'>
+					<h3 className='text-[#6A6D7C] dark:text-[#ccc] pb-2 font-bold'>
 						Desarrollador Frontend
 					</h3>
-					<p className='text-[#6A6D7C] pb-4'>
+					<p className='text-[#6A6D7C] dark:text-[#ccc] pb-4'>
 						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam
 						laudantium inventore ad natus autem sed et repellat cupiditate.
 					</p>

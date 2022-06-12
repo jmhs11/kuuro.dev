@@ -1,0 +1,105 @@
+{
+	"name": "Jose Maria Herrero",
+	"location": "Sant Boi de Llobregat, Barcelona",
+	"description": "Soy Front-End developer con más de 2 años en el mundo de la programación, me considero una persona muy curiosa, proactiva y me encanta aprender cosas nuevas, por ello sigo aprendiendo de forma autodidacta, actualmente React & Node.js",
+	"experience": [
+		{
+			"company": "NTT DATA",
+			"jobs": [
+				{
+					"position": "Jr. Frontend Engineer",
+					"startDate": "2021-06",
+					"endDate": null,
+					"subtitle": "Aplicacion web CRM de uso interno de cliente para gestionar servicios vacacionales, empresariales y grupales",
+					"details": [
+						"Tecnologias utilizadas: Angular 8, RxJs, Typescript, Git, Git Flow, Git Hooks",
+						"Uso de metodologías ágiles con JIRA"
+					]
+				}
+			]
+		},
+		{
+			"company": "A2N Team Software",
+			"jobs": [
+				{
+					"position": "Jr. Fullstack Developer",
+					"startDate": "2020-03",
+					"endDate": "2021-06",
+					"details": [
+						"Mantener aplicaciones web creadas en AngularJS y C# enfocadas al sector financiero y sanitario",
+						"Crear páginas web con CMS WordPress para más de 15 empresas entre los sectores de Transporte, Administración Pública, Tecnología y Desarrollo, Aceleradora e Incubadora de Startups, Networking, Gastronómico, Sanitario e Inmobiliario"
+					]
+				},
+				{
+					"position": "Jr. Fullstack Developer",
+					"startDate": "2020-02",
+					"endDate": "2020-03",
+					"subtitle": "Prácticas Desarrollo Multiplataforma",
+					"details": [
+						"Desarrollo y mantenimiento de aplicaciones web y multiplataforma"
+					]
+				}
+			]
+		},
+		{
+			"company": "Saak Digital",
+			"jobs": [
+				{
+					"position": "Jr. Frontend Developer",
+					"startDate": "2019-02",
+					"endDate": "2019-06",
+					"subtitle": "Prácticas Desarrollo Web",
+					"details": [
+						"Desarrollo y mantenimiento de aplicación web basada en suscripciones creada en AngularJS, utilizando API REST"
+					]
+				}
+			]
+		}
+	],
+	"education": [
+		{
+			"institution": "Centres Innovació i Formació Ocupacional - CIFO",
+			"title": "[IFCD55-1] Desenvolupament web Frontend",
+			"startDate": "2021-05",
+			"endDate": "2021-07",
+			"certificate": ""
+		},
+		{
+			"institution": "INS Marianao",
+			"title": "Desarrollo de aplicaciones multiplataforma",
+			"startDate": "2019-09",
+			"endDate": "2021-01",
+			"certificate": ""
+		},
+		{
+			"institution": "INS Marianao",
+			"title": "Desarrollo de aplicaciones web",
+			"startDate": "2017-09",
+			"endDate": "2019-06",
+			"certificate": ""
+		}
+	],
+	"skills": {
+		"hard": [],
+		"soft": []
+	},
+	"languages": [
+		{
+			"name": "Castellano",
+			"level": "Nativo"
+		},
+		{
+			"name": "Catalán",
+			"level": "Nativo"
+		},
+		{
+			"name": "Inglés",
+			"level": "Basico"
+		}
+	],
+	"contact": {
+		"email": "josemariahs@gmail.com",
+		"phone": "+34 659 38 57 13",
+    "website": "https://kuuro.dev"
+	}
+}

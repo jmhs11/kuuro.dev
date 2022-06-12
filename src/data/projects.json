@@ -1,0 +1,27 @@
+[
+	{
+		"name": "Todo List",
+		"imageUrl": "/projects/todolist-cover.png",
+		"description": "Aplicación para listar tareas pendientes con persistencia en Firebase Realtime Database",
+		"url": "https://todo-list.kuuro.dev",
+		"technologies": [
+			{
+				"name": "Angular",
+				"icon": "angular-icon"
+			},
+			{
+				"name": "TailwindCSS",
+				"icon": "tailwindcss-icon"
+			},
+			{
+				"name": "Firebase",
+				"icon": "firebase-icon"
+			},
+			{
+				"name": "Vercel",
+				"icon": "vercel-icon",
+				"className": "dark-mode-icon"
+			}
+		]
+	}
+]

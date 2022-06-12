@@ -1,0 +1,53 @@
+[
+	{
+		"url": "https://www.reactjs.org/",
+		"icon": "react-icon",
+		"altText": "React Link"
+	},
+	{
+		"url": "https://angular.io",
+		"icon": "angular-icon",
+		"altText": "Angular Link"
+	},
+	{
+		"url": "https://www.javascript.com",
+		"icon": "javascript-icon",
+		"altText": "JavaScript Link"
+	},
+	{
+		"url": "https://www.typescriptlang.org",
+		"icon": "typescript-icon",
+		"altText": "TypeScript Link"
+	},
+	{
+		"url": "https://developer.mozilla.org/es/docs/Web/HTML",
+		"icon": "html-icon",
+		"altText": "HTML Link"
+	},
+	{
+		"url": "https://developer.mozilla.org/es/docs/Web/CSS",
+		"icon": "css-3-icon",
+		"altText": "CSS Link"
+	},
+	{
+		"url": "https://tailwindcss.com",
+		"icon": "tailwindcss-icon",
+		"altText": "Tailwind Link"
+	},
+	{
+		"url": "https://git-scm.com",
+		"icon": "git-icon",
+		"altText": "Git Link"
+	},
+	{
+		"url": "https://firebase.google.com",
+		"icon": "firebase-icon",
+		"altText": "Firebase Link"
+	},
+	{
+		"url": "https://vercel.com",
+		"icon": "vercel-icon",
+		"altText": "Vercel Link",
+		"className": "dark-mode-icon"
+	}
+]

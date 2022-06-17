@@ -34,10 +34,11 @@ jobs:
 
       - name: Deploy to Vercel
         if: ${{ success() }}
-        uses: amondnet/vercel-action@v20.0.1
+        uses: amondnet/vercel-action@v25
         id: vercel-action
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN  }}
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
           vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
           vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
+          alias-domains: |
+            staging.kuuro.dev

@@ -18,15 +18,19 @@
 @tailwind components;
 
 @layer components {
-  .bg-pattern{
-    @apply bg-[url("/bg-pattern.svg")];
-  }
+	.bg-pattern {
+		@apply bg-[url("/bg-pattern.svg")];
+	}
 }
 
 @tailwind utilities;
 
+html {
+	margin-left: calc(100vw - 100%);
+}
+
 @media (prefers-color-scheme: dark) {
-	img[src*=".svg"].dark-mode-icon {
+	img[src*='.svg'].dark-mode-icon {
 		filter: invert(1);
 	}
 }

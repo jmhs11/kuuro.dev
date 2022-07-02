@@ -7,7 +7,7 @@ const Footer = () => {
 					href='https://github.com/jmhs11'
 					target='_blank'
 					rel='noopener noreferrer'
-          className="font-bold"
+					className='font-bold'
 				>
 					Kuuro
 				</a>

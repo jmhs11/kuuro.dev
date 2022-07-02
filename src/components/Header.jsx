@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
 	return (
-		<header className='flex justify-between w-full h-20 px-6 md:container'>
+		<header className='flex h-20 w-full justify-between px-6 md:container'>
 			<Link to='/'>
 				<img src='/logo.svg' alt='logo' className='h-full ' />
 			</Link>
@@ -15,7 +15,7 @@ const Header = () => {
 					<img
 						src='/icons/github-icon.svg'
 						alt='Github Link'
-						className='w-8 h-8 dark-mode-icon'
+						className='dark-mode-icon h-8 w-8'
 					/>
 				</a>
 				<a
@@ -26,7 +26,7 @@ const Header = () => {
 					<img
 						src='/icons/linkedin-icon.svg'
 						alt='LinkedIn Link'
-						className='w-8 h-8 bg-white rounded'
+						className='h-8 w-8 rounded bg-white'
 					/>
 				</a>
 			</div>

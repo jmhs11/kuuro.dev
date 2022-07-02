@@ -11,44 +11,44 @@ const Home = () => {
 		<>
 			<Header />
 			<main>
-				<section className='flex flex-col items-center justify-between px-6 py-16 md:flex-row md:py-44 md:container'>
+				<section className='flex flex-col items-center justify-between px-6 py-16 md:container md:flex-row md:py-44'>
 					<div className='order-2 basis-1/2'>
 						<h1 className='pb-2 font-bold'>Hola! soy Kuuro</h1>
-						<h3 className='text-[#6A6D7C] dark:text-[#ccc] pb-2 font-bold'>
+						<h3 className='pb-2 font-bold text-[#6A6D7C] dark:text-[#ccc]'>
 							Desarrollador Frontend
 						</h3>
-						<p className='text-[#6A6D7C] dark:text-[#ccc] pb-4 max-w-prose'>
+						<p className='max-w-prose pb-4 text-[#6A6D7C] dark:text-[#ccc]'>
 							Soy Frontend developer con más de 2 años en el mundo de la
 							programación, actualmente aprendiendo de forma autodidacta React
 							&amp; Node.js y entusiasta de la cultura japonesa{' '}
 							<img
 								src='/icons/japan.png'
 								alt='Japan Flag'
-								className='inline w-4 h-4'
+								className='inline h-4 w-4'
 							/>
 							⛩
 						</p>
 						<div className='flex gap-4'>
 							<Link
 								to='/cv'
-								className='px-4 py-2 text-white bg-blue-500 rounded-md'
+								className='rounded-md bg-blue-500 px-4 py-2 text-white'
 							>
 								Ver mi CV
 							</Link>
 							<Link
 								to='/contact'
-								className='px-4 py-2 text-white rounded-md bg-slate-600'
+								className='rounded-md bg-slate-600 px-4 py-2 text-white'
 							>
 								Contáctame
 							</Link>
 						</div>
 					</div>
-					<div className='flex justify-center w-full mb-16 md:order-2 basis-1/2 md:justify-around md:m-auto'>
+					<div className='mb-16 flex w-full basis-1/2 justify-center md:order-2 md:m-auto md:justify-around'>
 						<picture>
 							<source type='image/webp' srcSet='hero.webp' />
 							<img
 								src='hero.jpg'
-								className='rounded-full w-[25rem] object-cover'
+								className='w-[25rem] rounded-full object-cover'
 								alt='Kuuro Image'
 							/>
 						</picture>
@@ -56,7 +56,7 @@ const Home = () => {
 				</section>
 				<section className='px-6 pb-20 md:container'>
 					<h2 className='pb-4 font-bold'>Skills</h2>
-					<div className='grid grid-cols-3 gap-6 md:grid-cols-5 lg:grid-cols-8 place-items-center'>
+					<div className='grid grid-cols-3 place-items-center gap-6 md:grid-cols-5 lg:grid-cols-8'>
 						{TECHNOLOGIES.map(technology => (
 							<GridTechnology key={technology.icon} {...technology} />
 						))}

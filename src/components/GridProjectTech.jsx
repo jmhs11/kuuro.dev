@@ -1,5 +1,11 @@
 const GridProjectTech = ({ name, icon, className }) => {
-	return <img src={`/icons/${icon}.svg`} alt={name} className={`w-8 h-8 ${className}`} />;
+	return (
+		<img
+			src={`/icons/${icon}.svg`}
+			alt={name}
+			className={`h-8 w-8 ${className}`}
+		/>
+	);
 };
 
 export default GridProjectTech;

@@ -10,16 +10,16 @@ const GridProject = ({ project }) => {
 					src={imageUrl}
 					loading='lazy'
 					alt=''
-					className='object-cover w-full h-60 rounded-t-md'
+					className='h-60 w-full rounded-t-md object-cover'
 				/>
-				<div className='flex flex-col px-3 pt-1 pb-3 bg-white border-2 dark:border-[#333] border-t-0 dark:bg-black rounded-b-md'>
+				<div className='flex flex-col rounded-b-md border-2 border-t-0 bg-white px-3 pt-1 pb-3 dark:border-[#333] dark:bg-black'>
 					<h4 className='text-lg font-semibold'>{name}</h4>
 					<div id='description' className='text-[#6A6D7C] dark:text-[#ccc]'>
 						{description}
 					</div>
 					<div
 						id='technologies'
-						className='flex flex-wrap mt-3 justify-self-end'
+						className='mt-3 flex flex-wrap justify-self-end'
 					>
 						{technologies.map(technology => (
 							<GridProjectTech

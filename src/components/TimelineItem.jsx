@@ -20,15 +20,15 @@ const TimelineItem = ({ company, jobs, index }) => {
 	return (
 		<article
 			ref={ref}
-			className={`w-[45%] rounded-md border-2 border-[#333] p-4 mb-4
+			className={`mb-4 w-[45%] rounded-md border-2 border-[#333] p-4
       ${index % 2 === 0 ? 'ml-auto' : 'mr-auto'}
       `}
 		>
 			<div
-				className={`before:w-4 before:-mt-4 before:absolute before:rounded-md ${
+				className={`before:absolute before:-mt-4 before:w-4 before:rounded-md ${
 					index % 2 === 0
-						? 'before:bg-red-500 before:left-1/2'
-						: 'before:bg-blue-500 before:right-1/2'
+						? 'before:left-1/2 before:bg-red-500'
+						: 'before:right-1/2 before:bg-blue-500'
 				}`}
 			>
 				<h4 className='mb-4 text-xl'>{company}</h4>

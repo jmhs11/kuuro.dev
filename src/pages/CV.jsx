@@ -9,19 +9,19 @@ const CV = () => {
 			<Header />
 			<main>
 				<section className='px-6 pt-56 pb-8 md:container'>
-					<h1 className='text-4xl font-bold text-center'>Curriculum Vitae</h1>
+					<h1 className='text-center text-4xl font-bold'>Curriculum Vitae</h1>
 				</section>
 
 				<section
 					id='timeline'
-					className='relative px-6 py-8 mb-20 md:container'
+					className='relative mb-20 px-6 py-8 md:container'
 				>
 					<Timeline timeline={info.experience} />
 				</section>
 
 				<section className='px-6 pb-20 text-center md:container'>
 					<button
-						className='px-4 py-2 bg-blue-500 rounded-md'
+						className='rounded-md bg-blue-500 px-4 py-2'
 						onClick={() => alert('Generando PDF')}
 					>
 						Genera el documento PDF

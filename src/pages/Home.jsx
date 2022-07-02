@@ -11,8 +11,8 @@ const Home = () => {
 		<>
 			<Header />
 			<main>
-				<section className='flex flex-wrap items-center justify-between px-6 py-56 md:container'>
-					<div>
+				<section className='flex flex-col items-center justify-between px-6 py-16 md:flex-row md:py-44 md:container'>
+					<div className='order-2 basis-1/2'>
 						<h1 className='pb-2 font-bold'>Hola! soy Kuuro</h1>
 						<h3 className='text-[#6A6D7C] dark:text-[#ccc] pb-2 font-bold'>
 							Desarrollador Frontend
@@ -43,12 +43,12 @@ const Home = () => {
 							</Link>
 						</div>
 					</div>
-					<div className='flex justify-center w-full sm:justify-around sm:w-auto'>
+					<div className='flex justify-center w-full mb-16 md:order-2 basis-1/2 md:justify-around md:m-auto'>
 						<picture>
 							<source type='image/webp' srcSet='hero.webp' />
 							<img
 								src='hero.jpg'
-								className='w-64 h-64 rounded-full'
+								className='rounded-full w-[25rem] object-cover'
 								alt='Kuuro Image'
 							/>
 						</picture>

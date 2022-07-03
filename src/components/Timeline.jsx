@@ -6,7 +6,6 @@ const Timeline = ({ timeline }) => {
 			className={`before:absolute before:left-1/2 before:-mt-8 before:ml-[-2px] before:h-full before:w-1 before:bg-[#333]`}
 		>
 			{timeline.map((t, index) => {
-				console.log(t);
 				return (
 					<TimelineItem
 						key={index}

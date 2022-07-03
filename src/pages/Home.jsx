@@ -24,26 +24,27 @@ const Home = () => {
 							<img
 								src='/icons/japan.png'
 								alt='Japan Flag'
-								className='inline h-4 w-4'
+								className='inline w-4 h-4'
 							/>
 							⛩
 						</p>
 						<div className='flex gap-4'>
 							<Link
-								to='/cv'
-								className='rounded-md bg-blue-500 px-4 py-2 text-white'
+								to='/'
+								// to='/cv'
+								className='px-4 py-2 text-white bg-blue-500 rounded-md'
 							>
 								Ver mi CV
 							</Link>
 							<Link
 								to='/contact'
-								className='rounded-md bg-slate-600 px-4 py-2 text-white'
+								className='px-4 py-2 text-white rounded-md bg-slate-600'
 							>
 								Contáctame
 							</Link>
 						</div>
 					</div>
-					<div className='mb-16 flex w-full basis-1/2 justify-center md:order-2 md:m-auto md:justify-around'>
+					<div className='flex justify-center w-full mb-16 basis-1/2 md:order-2 md:m-auto md:justify-around'>
 						<picture>
 							<source type='image/webp' srcSet='hero.webp' />
 							<img
@@ -56,7 +57,7 @@ const Home = () => {
 				</section>
 				<section className='px-6 pb-20 md:container'>
 					<h2 className='pb-4 font-bold'>Skills</h2>
-					<div className='grid grid-cols-3 place-items-center gap-6 md:grid-cols-5 lg:grid-cols-8'>
+					<div className='grid grid-cols-3 gap-6 place-items-center md:grid-cols-5 lg:grid-cols-8'>
 						{TECHNOLOGIES.map(technology => (
 							<GridTechnology key={technology.icon} {...technology} />
 						))}

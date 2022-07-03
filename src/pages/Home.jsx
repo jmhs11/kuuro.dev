@@ -49,7 +49,7 @@ const Home = () => {
 							<source type='image/webp' srcSet='hero.webp' />
 							<img
 								src='hero.jpg'
-								className='w-[25rem] rounded-full object-cover'
+								className='aspect-square w-[25rem] rounded-full object-cover'
 								alt='Kuuro Image'
 							/>
 						</picture>

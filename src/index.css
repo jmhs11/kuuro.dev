@@ -13,6 +13,9 @@
 	p {
 		@apply max-w-prose;
 	}
+	img {
+		@apply w-full;
+	}
 }
 
 @tailwind components;

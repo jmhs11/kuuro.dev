@@ -3,8 +3,8 @@ import Footer from '../components/Footer';
 import GridProject from '../components/GridProject';
 import GridTechnology from '../components/GridTechnology';
 import Header from '../components/Header';
-import TECHNOLOGIES from '../data/technologies.json';
 import PROJECTS from '../data/projects.json';
+import TECHNOLOGIES from '../data/technologies.json';
 
 const Home = () => {
 	return (
@@ -28,7 +28,7 @@ const Home = () => {
 							/>
 							⛩
 						</p>
-						<div className='flex gap-4'>
+						<div className='flex flex-gap-4'>
 							<Link
 								to='/'
 								// to='/cv'

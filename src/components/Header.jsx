@@ -6,7 +6,7 @@ const Header = () => {
 			<Link to='/'>
 				<img src='/logo.svg' alt='logo' className='h-full ' />
 			</Link>
-			<div id='social-media' className='flex items-center gap-2'>
+			<div id='social-media' className='flex items-center flex-gap-2'>
 				<a
 					href='https://github.com/jmhs11'
 					rel='nooppener noreferrer'

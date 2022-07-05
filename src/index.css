@@ -34,5 +34,3 @@ html {
 		filter: invert(1);
 	}
 }
-
-@import url('./polyfills/safari-flex-gap-polyfill.css');

@@ -34,3 +34,109 @@ html {
 		filter: invert(1);
 	}
 }
+
+@supports (-webkit-touch-callout: none) {
+  .gap-2.flex:not(.flex-col):not(.flex-wrap) > *:not(:last-child) {
+    margin-right: 0.5rem;
+  }
+
+  .gap-3.flex:not(.flex-col):not(.flex-wrap) > *:not(:last-child) {
+    margin-right: 0.75rem;
+  }
+
+  .gap-4.flex:not(.flex-col):not(.flex-wrap) > *:not(:last-child) {
+    margin-right: 1rem;
+  }
+
+  .gap-5.flex:not(.flex-col):not(.flex-wrap) > *:not(:last-child) {
+    margin-right: 1.25rem;
+  }
+
+  .gap-6.flex:not(.flex-col):not(.flex-wrap) > *:not(:last-child) {
+    margin-right: 1.5rem;
+  }
+
+  .gap-7.flex:not(.flex-col):not(.flex-wrap) > *:not(:last-child) {
+    margin-right: 1.75rem;
+  }
+
+  .gap-8.flex:not(.flex-col):not(.flex-wrap) > *:not(:last-child) {
+    margin-right: 2rem;
+  }
+
+  .gap-9.flex:not(.flex-col):not(.flex-wrap) > *:not(:last-child) {
+    margin-right: 2.25rem;
+  }
+
+  .gap-10.flex:not(.flex-col):not(.flex-wrap) > *:not(:last-child) {
+    margin-right: 2.5rem;
+  }
+
+  .gap-11.flex:not(.flex-col):not(.flex-wrap) > *:not(:last-child) {
+    margin-right: 2.75rem;
+  }
+
+  .gap-12.flex:not(.flex-col):not(.flex-wrap) > *:not(:last-child) {
+    margin-right: 3rem;
+  }
+
+  .gap-3.flex-col > *:not(:last-child),
+  .gap-3.flex-wrap > *:not(:last-child),
+  .gap-3:not(.flex) > *:not(:last-child) {
+    margin-bottom: 0.75rem;
+  }
+
+  .gap-4.flex-col > *:not(:last-child),
+  .gap-4.flex-wrap > *:not(:last-child),
+  .gap-4:not(.flex) > *:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+
+  .gap-5.flex-col > *:not(:last-child),
+  .gap-5.flex-wrap > *:not(:last-child),
+  .gap-5:not(.flex) > *:not(:last-child) {
+    margin-bottom: 1.25rem;
+  }
+
+  .gap-6.flex-col > *:not(:last-child),
+  .gap-6.flex-wrap > *:not(:last-child),
+  .gap-6:not(.flex) > *:not(:last-child) {
+    margin-bottom: 1.5rem;
+  }
+
+  .gap-7.flex-col > *:not(:last-child),
+  .gap-7.flex-wrap > *:not(:last-child),
+  .gap-7:not(.flex) > *:not(:last-child) {
+    margin-bottom: 1.75rem;
+  }
+
+  .gap-8.flex-col > *:not(:last-child),
+  .gap-8.flex-wrap > *:not(:last-child),
+  .gap-8:not(.flex) > *:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+
+  .gap-9.flex-col > *:not(:last-child),
+  .gap-9.flex-wrap > *:not(:last-child),
+  .gap-9:not(.flex) > *:not(:last-child) {
+    margin-bottom: 2.25rem;
+  }
+
+  .gap-10.flex-col > *:not(:last-child),
+  .gap-10.flex-wrap > *:not(:last-child),
+  .gap-10:not(.flex) > *:not(:last-child) {
+    margin-bottom: 2.5rem;
+  }
+
+  .gap-11.flex-col > *:not(:last-child),
+  .gap-11.flex-wrap > *:not(:last-child),
+  .gap-11:not(.flex) > *:not(:last-child) {
+    margin-bottom: 2.75rem;
+  }
+
+  .gap-12.flex-col > *:not(:last-child),
+  .gap-12.flex-wrap > *:not(:last-child),
+  .gap-12:not(.flex) > *:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+}

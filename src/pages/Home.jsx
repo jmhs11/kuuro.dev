@@ -28,7 +28,7 @@ const Home = () => {
 							/>
 							⛩
 						</p>
-						<div className='flex flex-gap-4'>
+						<div className='flex gap-4'>
 							<Link
 								to='/'
 								// to='/cv'

@@ -4,7 +4,7 @@ const Header = () => {
 	return (
 		<header className='flex justify-between w-full h-20 px-6 md:container'>
 			<Link to='/'>
-				<img src='/logo.svg' alt='logo' className='w-full h-full max-w-min' />
+				<img src='/logo.svg' alt='logo' className='w-20 h-full' />
 			</Link>
 			<div id='social-media' className='flex items-center gap-2'>
 				<a

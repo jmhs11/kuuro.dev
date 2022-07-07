@@ -22,7 +22,7 @@ html {
 	margin-left: calc(100vw - 100%);
 }
 
-html::before {
+.bg-pattern::before {
   background-image: url("/bg-pattern.svg");
   content: '';
   top: 0;
@@ -31,11 +31,10 @@ html::before {
   height: 100%;
   position: fixed;
   z-index: -1;
-  min-height: 100%;
 }
 
 @media (prefers-color-scheme: dark) {
-	html::before {
+	.bg-pattern::before {
     filter: invert(1);
   }
   

@@ -23,5 +23,26 @@
 				"className": "dark-mode-icon"
 			}
 		]
+	},
+	{
+		"name": "Esports Store",
+		"imageUrl": "/projects/esports-store.jpeg",
+		"description": "Tienda online de videojuegos",
+		"url": "https://esports-store.kuuro.dev",
+		"technologies": [
+			{
+				"name": "Angular",
+				"icon": "angular-icon"
+			},
+			{
+				"name": "TailwindCSS",
+				"icon": "tailwindcss-icon"
+			},
+			{
+				"name": "Vercel",
+				"icon": "vercel-icon",
+				"className": "dark-mode-icon"
+			}
+		]
 	}
 ]

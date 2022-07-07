@@ -32,12 +32,13 @@ const CV = () => {
 				</section>
 
 				<section className='px-6 pb-20 text-center md:container'>
-					<button
+					<a
 						className='px-4 py-2 bg-blue-500 rounded-md'
-						onClick={() => alert('Generando PDF')}
+						href='/docs/Jose_Maria_Herrero_CV.pdf'
+						download
 					>
-						Genera el documento PDF
-					</button>
+						Descargar CV
+					</a>
 				</section>
 			</main>
 			<Footer />

@@ -30,7 +30,7 @@ const TimelineItem = ({ company, jobs, index }) => {
 						</small>
 						<p className='font-bold'>
 							{job.position}
-							{job.subtitle ? `- ${job.subtitle}` : null}
+							{job.subtitle ? ` - ${job.subtitle}` : null}
 						</p>
 						<p className='text-sm'>{job.details}</p>
 					</div>

@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import GridProject from '../components/GridProject';
 import GridTechnology from '../components/GridTechnology';
@@ -36,12 +37,12 @@ const Home = () => {
 							>
 								Ver mi CV
 							</Link>
-							<Link
-								to='/contact'
+							<a
+								href='#contact'
 								className='px-4 py-2 text-white rounded-md bg-slate-600'
 							>
 								Contáctame
-							</Link>
+							</a>
 						</div>
 					</div>
 					<div className='flex justify-center w-full mb-16 basis-1/2 md:order-2 md:m-auto md:justify-around'>
@@ -63,7 +64,7 @@ const Home = () => {
 						))}
 					</div>
 				</section>
-				<section className='container px-6'>
+				<section className='px-6 pb-20 md:container'>
 					<h2 className='pb-4 font-bold'>Mis Proyectos Recientes</h2>
 					<div className='grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4'>
 						{PROJECTS.map(project => (
@@ -71,6 +72,7 @@ const Home = () => {
 						))}
 					</div>
 				</section>
+				<Contact />
 			</main>
 			<Footer />
 		</>

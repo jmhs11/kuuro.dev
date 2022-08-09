@@ -19,7 +19,7 @@ const GridProject = ({ project }) => {
 					</div>
 					<div
 						id='technologies'
-						className='mt-3 flex flex-wrap justify-self-end'
+						className='mt-3 flex flex-wrap gap-2 justify-self-end'
 					>
 						{technologies.map(technology => (
 							<GridProjectTech

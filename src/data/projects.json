@@ -31,12 +31,17 @@
 		"url": "https://esports-store.kuuro.dev",
 		"technologies": [
 			{
-				"name": "Angular",
-				"icon": "angular-icon"
+				"name": "React",
+				"icon": "react-icon"
 			},
 			{
 				"name": "TailwindCSS",
 				"icon": "tailwindcss-icon"
+			},
+			{
+				"name": "DaisyUI",
+				"icon": "daisyui-icon",
+				"isPNG": true
 			},
 			{
 				"name": "Vercel",

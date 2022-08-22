@@ -1,4 +1,4 @@
-const GridTechnology = ({ url, icon, altText, className }) => {
+const GridTechnology = ({ url, icon, isPNG, altText, className }) => {
 	return (
 		<a
 			href={url}
@@ -8,7 +8,7 @@ const GridTechnology = ({ url, icon, altText, className }) => {
 			title={altText.split(' ')[0]}
 		>
 			<img
-				src={`/icons/${icon}.svg`}
+				src={`/icons/${icon}.${isPNG ? 'png' : 'svg'}`}
 				alt={altText}
 				className={`h-20 w-20 ${className}`}
 				loading='eager'

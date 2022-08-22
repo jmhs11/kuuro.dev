@@ -35,6 +35,12 @@
 		"altText": "Tailwind Link"
 	},
 	{
+		"url": "https://daisyui.com",
+		"icon": "daisyui-icon",
+		"isPNG": true,
+		"altText": "DaisyUI Link"
+	},
+	{
 		"url": "https://git-scm.com",
 		"icon": "git-icon",
 		"altText": "Git Link"

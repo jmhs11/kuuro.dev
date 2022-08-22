@@ -49,5 +49,31 @@
 				"className": "dark-mode-icon"
 			}
 		]
+	},
+	{
+		"name": "AniList Comparator",
+		"imageUrl": "/projects/anilist-comparator.webp",
+		"description": "Comparador de listas de anime utilizando la API de AniList.co",
+		"url": "https://anilist-comparator.kuuro.dev",
+		"technologies": [
+			{
+				"name": "React",
+				"icon": "react-icon"
+			},
+			{
+				"name": "TailwindCSS",
+				"icon": "tailwindcss-icon"
+			},
+			{
+				"name": "DaisyUI",
+				"icon": "daisyui-icon",
+				"isPNG": true
+			},
+			{
+				"name": "Vercel",
+				"icon": "vercel-icon",
+				"className": "dark-mode-icon"
+			}
+		]
 	}
 ]
